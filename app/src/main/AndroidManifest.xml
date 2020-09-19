@@ -14,10 +14,9 @@
         <activity android:name=".ui.detail.ItemDetailActivity"></activity>
         <activity android:name=".ui.signup.SignUpActivity" />
         <activity android:name=".ui.signin.SignInActivity" />
-        <activity
-            android:name=".ui.MainActivity"
-            android:theme="@style/SplashScreenStyle" />
-        <activity android:name=".ui.splash.SplashActivity">
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.splash.SplashActivity"
+            android:theme="@style/SplashScreenStyle">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
